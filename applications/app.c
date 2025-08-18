@@ -139,10 +139,11 @@ void app_set_configuration(app_configuration *conf) {
 			break;
 
 		case APP_CUSTOM:
-#ifdef APP_CUSTOM_TO_USE
-			hw_stop_i2c();
-			app_custom_start();
-#endif
+#//#ifdef APP_CUSTOM_TO_USE
+			hw_stop_i2c(); // Stop I2C if it conflicts with your PAS/UART pins/operation
+            app_pas_start(true); // Start PAS
+            app_uartcomm_start(UART_PORT_COMM_HEADER); // Start UART communication
+//#endif
 			break;
 
 		default:
