@@ -11,7 +11,7 @@
 
 // --- PAS Settings ---
 // Control Type
-#define APPCONF_PAS_CTRL_TYPE 1
+#define APPCONF_PAS_CTRL_TYPE               PAS_CTRL_TYPE_CADENCE
 
 // Sensor Type
 #define APPCONF_PAS_SENSOR_TYPE				PAS_SENSOR_TYPE_QUADRATURE
@@ -26,7 +26,7 @@
 #define APPCONF_PAS_PEDAL_RPM_END 120
 
 // Invert Pedal Direction
-#define APPCONF_PAS_INVERT_PEDAL_DIRECTION 0
+#define APPCONF_PAS_INVERT_PEDAL_DIRECTION	false
 
 // Sensor Magnets
 #define APPCONF_PAS_MAGNETS 12

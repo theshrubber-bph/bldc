@@ -249,7 +249,7 @@
 // Override the default PAS pin assignments in your hardware configuration file
 #define HW_PAS1_PORT			GPIOA
 #define HW_PAS1_PIN				5
-#define HW_PAS2_PORT			GPIOC
+#define HW_PAS2_PORT			GPIOA
 #define HW_PAS2_PIN				6																			   
 // UART Peripheral
 #define HW_UART_DEV				SD3
