@@ -7,7 +7,7 @@
 #define APPCONF_APP_TO_USE				APP_CUSTOM
 
 // Enable Permanent UART
-//#define APPCONF_PERMANENT_UART_ENABLED 1
+#define APPCONF_PERMANENT_UART_ENABLED 1
 
 // --- PAS Settings ---
 // Control Type
